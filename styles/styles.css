@@ -1,0 +1,312 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Istok Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+}  
+/*Header*/
+.encabezado{
+  display: flex;
+  background-color: rgba(83, 0, 200, 1);
+  width: 100%;
+  height: 96px;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: #ffffff;
+
+}
+.logo-encabezado{
+  width: 320px;
+  height: 55px;
+}
+/*  Contenedor de Productos */
+.container{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 1453px;
+  padding: 60px 40px;
+  gap: 70px;
+}
+
+h1 {
+  display: flex;
+  font-size: 24px;
+  font-family: "Press Start 2P";
+  font-weight: 700;
+  margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-product {
+  font-family: "Press Start 2P";
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.products-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  align-content: center;
+}
+
+.form-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+
+}
+input{
+  border-radius: 20px;
+  border: 3px solid #5300C8;
+  padding: 10px;
+  width: 392px  
+}
+
+.button-container{
+  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  
+}
+
+.button-submit{
+  font-family: "IBM Plex Mono";
+  font-size: 20px;
+  background-color: #5300C8;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: 188px;
+  border:solid 2px #5300C8;
+}
+
+.button-clear{
+  font-family: "IBM Plex Mono";
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #5300C8;
+  padding: 10px 20px;
+  border-radius: 8px ;
+  width: 188px;
+  border: solid 2px #5300C8;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgba(83, 0, 200, 1);
+  color: #ffffff;
+  width: calc(100% /4);
+  margin: 10px;
+  border-radius: 10px;
+  border: 3px  solid rgba(83, 0, 200, 1);
+  box-shadow: -5px 6px 3.3px 0px rgba(0, 0, 0, 0.25); 
+  gap: 10px;  
+}
+.card:hover {
+  background-color:rgba(83, 0, 200, 1);
+}
+
+.card-container--info{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+.delete-button{
+  background-color:rgba(83, 0, 200, 1);
+  border: none;   
+}
+.delete-button:hover{
+  background-color:rgba(83, 0, 200, 1);
+}
+.card-container--value {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-container--info > p {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.img-container{
+  object-fit: contain;  
+  height: 174px;
+  width: 176px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+.img-cont {
+  height: 100%;
+  width: 100%;
+
+}
+/*Footer*/   
+footer{
+  display: flex;
+  background-color: rgba(83, 0, 200, 1) ;
+  padding: 44px;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 18px ;
+  gap: 10px;
+  flex-direction: column;
+}
+
+/*_______MOBILE DEVICES_____*/
+@media (max-width: 425px) { 
+  header{
+      width: auto;
+      padding: 20px 0px;
+  }
+  .header-img{
+      width: 236px;
+      height: auto;       
+  }
+
+  .main_container{
+      display: flex;
+      flex-direction: column-reverse;
+      width: 430px;
+      height: auto;
+      flex-wrap: wrap;
+      padding: 10px;
+            
+  }
+  .form-container{ 
+      display: flex;
+      width: 430px;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+      gap: 40px;
+  }
+
+  .agregar-titulo{ 
+     width: 350px;
+     height: 31px;
+     align-self: stretch;
+     text-align: center;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+  }
+
+  .seccion-productos{
+      width: 350px;
+  }
+  .products-container{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px;
+      align-content: center;
+  }  
+  
+  .card{
+      display: flex;
+      width: 180px;
+      padding: 10px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;   
+  } 
+ 
+  .img-container {
+    object-fit: contain;
+    height: 174px;
+    width: 176px;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+
+  .img-cont {
+    height: 100%;
+    width: 100%;
+
+  }
+}    
+
+/*___TABLETS DEVICES____*/
+
+@media (max-width: 768px) { 
+  .header{
+      width: 768px;
+  }
+  .container{
+      display: flex;
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;       
+  }
+  .agregar-titulo{
+     width: 50%;
+     height: auto;
+     font-size: 24px;
+     font-weight: 400;
+     text-align: center;
+     line-height: normal; 
+  }
+
+  .form-container{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      gap: 40px;
+  }
+  h1 {
+      font-size: 24px;
+      font-weight: 700;
+      font-style: normal;
+      margin-bottom: 20px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  } 
+  .products-container{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 100%;
+      justify-content: center;
+     
+  }  
+  
+}
