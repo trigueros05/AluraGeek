@@ -1,10 +1,40 @@
 {
   "products": [
     {
-      "id": "f3c6",
-      "name": "FREDDY",
-      "price": "123",
-      "image": "https://media.wired.com/photos/624df21cb340f55b37084fdc/1:1/w_1544,h_1544,c_limit/How-to-Build-a-PC-Gear.jpg"
+      "id": "0f49",
+      "name": "PC",
+      "price": "235",
+      "image": "https://www.crucial.mx/content/dam/crucial/articles/for-pc-builders/new025-how-to-upgrade-your-pc/modern-gaming-pc.jpg.transform/medium-jpg/img.jpg"
+    },
+    {
+      "id": "0c5b",
+      "name": "Teclado",
+      "price": "12",
+      "image": "https://i.blogs.es/afcf1f/comprar-teclado-mars-gaming-al-mejor-precio/650_1200.jpg"
+    },
+    {
+      "id": "d64a",
+      "name": "mouse",
+      "price": "6",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/3-Tasten-Maus_Microsoft.jpg/640px-3-Tasten-Maus_Microsoft.jpg"
+    },
+    {
+      "id": "317c",
+      "name": "Tarjeta Madre",
+      "price": "60",
+      "image": "https://definicion.de/wp-content/uploads/2009/04/tarjeta-madre.jpg"
+    },
+    {
+      "id": "fe4d",
+      "name": "Fuente de poder",
+      "price": "20",
+      "image": "https://pvl.com.bo/wp-content/uploads/2019/10/FE-800W-DELUX-FUENTE-DE-PODER-DELUX_TITULO.jpg"
+    },
+    {
+      "id": "f23c",
+      "name": "Memoria Ram",
+      "price": "30",
+      "image": "https://media.gcflearnfree.org/content/5b1041a06d5ad52ca4b6e97c_7_1_2013/Memoria-RAM-1.png"
     }
   ]
 }
